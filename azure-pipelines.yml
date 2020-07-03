@@ -11,13 +11,13 @@ variables:
   azureServiceConnectionId: 'c8420a67-37e8-41c6-a778-b26aa6884a81'
   
   # Web app name
-  webAppName: 'DSPK-Django-demo'
+  webAppName: 'DSPK-dev'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: 'DSPK-Django-demo'
+  environmentName: 'DSPK-dev'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
